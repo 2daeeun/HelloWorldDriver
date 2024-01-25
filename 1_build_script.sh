@@ -2,9 +2,9 @@
 
 echo "필수 패키지 설치"
 # 커널 빌드 할 때 꼭 필요함
-# 문법 분석기, 텍스트 처리기, CLI 계산기 설치
+# 문법 분석기, 텍스트 처리기, CLI 계산기, OpenSSL 개발 패키지 라이브러리 설치
 sudo apt-get update
-sudo apt install -y bison flex bc
+sudo apt install -y bison flex bc libssl-dev
 
 echo "커널 빌드 출력 경로 설정"
 
